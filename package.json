@@ -1,0 +1,10 @@
+{
+	"name": "yui-localeapp",
+	"version": "0.0.1",
+	"descrption": "Manage translations on LocaleApp for YUI projects",
+
+	"dependencies": {
+		"js-yaml": "3.0.1",
+		"request": "2.33.0"
+	}
+}
