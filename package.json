@@ -3,8 +3,20 @@
 	"version": "0.0.1",
 	"descrption": "Manage translations on LocaleApp for YUI projects",
 
+	"bin": {
+    	"localeapp-to-project": "./cli/localeapp-to-project.js",
+    	"project-to-localeapp": "./cli/project-to-localeapp.js"
+  	},
+
 	"dependencies": {
 		"js-yaml": "3.0.1",
-		"request": "2.33.0"
-	}
+		"request": "2.33.0",
+		"yui-project": "0.0.1"
+	},
+    "devDependencies": {
+        "vows": "0.7.0"
+    },
+    "scripts": {
+        "test": "vows --spec tests/test_*.js"
+    }
 }
